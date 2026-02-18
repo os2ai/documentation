@@ -28,7 +28,7 @@ Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til
 Det kan godt være at du har brug at konfigurere rettighederne anderledes end vi har gjort i AAK, det skal du være så
 velkommen til. Hvis du er i tvivl om hvad en rettighed betyder kan der måske hentes viden i OpenWebUIs dokumentation.
 I AAK har vi mange grupper i systemet (500+) da vi udover rettighedgruppen "Builder", også har almindelige
-brugergrupper der afhængere af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører jeg flg. grupper
+brugergrupper der afhænger af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører jeg flg. grupper
 
 - Aarhus Kommune
 - MKB
