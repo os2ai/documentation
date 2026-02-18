@@ -44,7 +44,7 @@ Har du ikke så mange grupper i dit system giver det måske mening for dig at v�
 
 ## Standard rettigheder
 
-I bunden af gruppe listen er en knap til "standard rettigheder" nye grupper der bliver oprettet vil arve de
+I bunden af gruppe listen er en knap til "standard rettigheder". Nye grupper der bliver oprettet vil arve de
 rettigheder der er konfigureret her. Vi bruger standardrettighederne til vores organisatoriske grupper og de
 dækker over de rettigheder man har som almindelig bruger af systemet (altså ikke builder-rettigheder). Når en
 bruger kun placeres i en organsiatorisk gruppe har vedkommende så "kun" standardrettighederne, og det er derfor
