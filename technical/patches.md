@@ -13,6 +13,7 @@ The ones not applied is Aarhus specifik patches like our OIDC patch for signing 
 The patches can be found here [https://github.com/AarhusAI/open-webui/pulls](patches).
 
 Patches
+
 - name: 'Pinned info banner'
   - url: [https://patch-diff.githubusercontent.com/raw/AarhusAI/open-webui/pull/32.diff]
   - branch: 'feature/pinned-info-banner'
@@ -39,6 +40,7 @@ Patches
   - branch: 'feature/group-sharing-permissions'
   
 Patches AAK:
+
 - name: 'Allow only admin users to generate API-KEY for the backend'
   - url: [https://patch-diff.githubusercontent.com/raw/AarhusAI/open-webui/pull/41.diff]
   - branch: 'feature/admin-api-keys'
