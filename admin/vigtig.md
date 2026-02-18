@@ -9,10 +9,10 @@ giver stor frihed, men det medfører også en risiko for at påvirke performance
 centrale indstillinger i produktionsmiljøet.
 Det er OS2ais klare anbefaling, at I ikke ændrer i indstillingerne i OpenWebUIs administratorpanel. Vi anbefaler desuden,
 at kun meget få personer i jeres organisation (fortrinsvis systemejere) tildeles administratorrettigheder.
-Hvis I ændrer i indstillingerne, betyder det: 
+Hvis I ændrer i indstillingerne, betyder det:
 
-1.	Applikationen kan opføre sig uhensigtsmæssigt.
-2.	Vi kan ikke garantere at opdateringer fungerer i jeres miljø.
+1. Applikationen kan opføre sig uhensigtsmæssigt.
+2. Vi kan ikke garantere at opdateringer fungerer i jeres miljø.
 
 Ved at foretage ændringer afviger I fra ”OS2ai core” og kører reelt en lokal, tilpasset løsning. Hvis I ønsker at
 ændre i setup’et – eller oplever fejl efter egne ændringer – kan I indkøbe bistand til fejlsøgning hos ITK Dev
