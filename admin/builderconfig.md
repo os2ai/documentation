@@ -12,11 +12,12 @@ OpenWebUI kommer med to roller:
 - bruger
 - administrator
 
-I AAK blev det hurtigt tydeligt at der var behov for en rolle der kunne bygge specialister/assistenter, samt en rolle der kune kunne anvende specialister og assistenter. For at imødekomme dette har vi lavet builder-rollen.
+I AAK blev det hurtigt tydeligt at der var behov for en rolle der kunne bygge specialister/assistenter,
+samt en rolle der kune kunne anvende specialister og assistenter. For at imødekomme dette har vi lavet builder-rollen.
 
 Da OpenWebUI ikke understøtter flere roller har vi brugt rettihedssystemet til at lave rollen. Det er gjort således:
 
-1) Opret en ny gruppe her: <img href = "/images/creategroup.png">
+1) Opret en ny gruppe her: <img href = "/images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen">
 2) Navngiv gruppen "builder", skriv en passende beskrivelse
 3) Under indstillingen "Hvem kan dele til denne gruppe" vælges "Medlemmer"
 4) Gå til menupunktet "rettigheder" og konfigurer de rettigheder du ønsker
@@ -39,7 +40,7 @@ Dette er for at vi kan dele specialister/assistenter til de relevante brugere. D
 "Medlemmer" i punkt 3 giver rigtig meget mening for os (du kan som builder kun dele i grupper du selv er i = din
 egen organisation), men også fordi at en liste på 500+ grupper at dele med at lidt uoverskuelig.
 
-Har du ikke så mange grupper i dit system giver det måske mening for dig at vælg "Alle" i punkt 3 i stedet. 
+Har du ikke så mange grupper i dit system giver det måske mening for dig at vælg "Alle" i punkt 3 i stedet.
 
 ## Standard rettigheder
 
