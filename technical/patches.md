@@ -8,7 +8,7 @@ parent: Technical documentation
 We have created a number of patches for our use of OpenWebUI. The ones relevant for all users of Aarhus AI is already
 in the installation.
 
-The ones not applied is Aarhus specifik patches like our OIDC patch for signing in using SSO.
+The ones not applied are Aarhus specific patches like our OIDC patch for signing in using SSO.
 
 The patches can be found here [https://github.com/AarhusAI/open-webui/pulls](patches).
 
