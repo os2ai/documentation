@@ -15,7 +15,7 @@ OpenWebUI kommer med to roller:
 I AAK blev det hurtigt tydeligt at der var behov for en rolle der kunne bygge specialister/assistenter,
 samt en rolle der kune kunne anvende specialister og assistenter. For at imødekomme dette har vi lavet builder-rollen.
 
-Da OpenWebUI ikke understøtter flere roller har vi brugt rettihedssystemet til at lave rollen. Det er gjort således:
+Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til at lave rollen. Det er gjort således:
 
 1) Opret en ny gruppe her: <img href = "/images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen">
 2) Navngiv gruppen "builder", skriv en passende beskrivelse
