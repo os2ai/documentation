@@ -15,7 +15,7 @@ OpenWebUI kommer med to roller:
 I AAK blev det hurtigt tydeligt at der var behov for en rolle der kunne bygge specialister/assistenter,
 samt en rolle der kune kunne anvende specialister og assistenter. For at imødekomme dette har vi lavet builder-rollen.
 
-Da OpenWebUI ikke understøtter flere roller har vi brugt rettihedssystemet til at lave rollen. Det er gjort således:
+Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til at lave rollen. Det er gjort således:
 
 1. Opret en ny gruppe her: <img src = "images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen" />
 2. Navngiv gruppen "builder", skriv en passende beskrivelse
@@ -28,7 +28,7 @@ Da OpenWebUI ikke understøtter flere roller har vi brugt rettihedssystemet til 
 Det kan godt være at du har brug at konfigurere rettighederne anderledes end vi har gjort i AAK, det skal du være så
 velkommen til. Hvis du er i tvivl om hvad en rettighed betyder kan der måske hentes viden i OpenWebUIs dokumentation.
 I AAK har vi mange grupper i systemet (500+) da vi udover rettighedgruppen "Builder", også har almindelige
-brugergrupper der afhængere af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører jeg flg. grupper
+brugergrupper der afhænger af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører jeg flg. grupper
 
 - Aarhus Kommune
 - MKB
@@ -44,7 +44,7 @@ Har du ikke så mange grupper i dit system giver det måske mening for dig at v�
 
 ## Standard rettigheder
 
-I bunden af gruppe listen er en knap til "standard rettigheder" nye grupper der bliver oprettet vil arve de
+I bunden af gruppe listen er en knap til "standard rettigheder". Nye grupper der bliver oprettet vil arve de
 rettigheder der er konfigureret her. Vi bruger standardrettighederne til vores organisatoriske grupper og de
 dækker over de rettigheder man har som almindelig bruger af systemet (altså ikke builder-rettigheder). Når en
 bruger kun placeres i en organsiatorisk gruppe har vedkommende så "kun" standardrettighederne, og det er derfor
