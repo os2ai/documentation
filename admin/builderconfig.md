@@ -17,7 +17,7 @@ samt en rolle der kune kunne anvende specialister og assistenter. For at imødek
 
 Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til at lave rollen. Det er gjort således:
 
-1. Opret en ny gruppe her: <img href = "images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen">
+1. Opret en ny gruppe her: <img src = "images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen" />
 2. Navngiv gruppen "builder", skriv en passende beskrivelse
 3. Under indstillingen "Hvem kan dele til denne gruppe" vælges "Medlemmer"
 4. Gå til menupunktet "rettigheder" og konfigurer de rettigheder du ønsker
