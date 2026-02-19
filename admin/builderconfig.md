@@ -17,13 +17,13 @@ samt en rolle der kune kunne anvende specialister og assistenter. For at imødek
 
 Da OpenWebUI ikke understøtter flere roller har vi brugt rettihedssystemet til at lave rollen. Det er gjort således:
 
-1) Opret en ny gruppe her: <img href = "/images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen">
-2) Navngiv gruppen "builder", skriv en passende beskrivelse
-3) Under indstillingen "Hvem kan dele til denne gruppe" vælges "Medlemmer"
-4) Gå til menupunktet "rettigheder" og konfigurer de rettigheder du ønsker
-   (du kan se hvordan AAK har konfigureret her [/builder/rettigheder.md](AAK builder rettigheder))
-5) Gem gruppen
-6) Åbn gruppen igen for at tilføje medlemmer - det gøres i venstre side ved at trykke "Brugere"
+1. Opret en ny gruppe her: <img href = "images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen">
+2. Navngiv gruppen "builder", skriv en passende beskrivelse
+3. Under indstillingen "Hvem kan dele til denne gruppe" vælges "Medlemmer"
+4. Gå til menupunktet "rettigheder" og konfigurer de rettigheder du ønsker
+   (du kan se hvordan AAK har konfigureret her [AAK builder rettigheder](../builder/rettigheder.md))
+5. Gem gruppen
+6. Åbn gruppen igen for at tilføje medlemmer - det gøres i venstre side ved at trykke "Brugere"
 
 Det kan godt være at du har brug at konfigurere rettighederne anderledes end vi har gjort i AAK, det skal du være så
 velkommen til. Hvis du er i tvivl om hvad en rettighed betyder kan der måske hentes viden i OpenWebUIs dokumentation.
@@ -49,7 +49,7 @@ rettigheder der er konfigureret her. Vi bruger standardrettighederne til vores o
 dækker over de rettigheder man har som almindelig bruger af systemet (altså ikke builder-rettigheder). Når en
 bruger kun placeres i en organsiatorisk gruppe har vedkommende så "kun" standardrettighederne, og det er derfor
 ikke nødvending at have en ekstra rolle-gruppe til en almindelig bruger. Du kan se hvordan vores standard
-rettigheder er konfigureret her: [/slutbruger/rettigheder.md](slutbruger rettigheder).
+rettigheder er konfigureret her: [slutbruger rettigheder](../slutbruger/rettigheder.md).
 
 ## Base modeller
 
