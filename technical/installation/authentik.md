@@ -41,7 +41,7 @@ global:
   configs:
     cm:
       oidc.config: |
-        name: AarhusAI SSO
+        name: OS2ai SSO
         issuer: https://auth.kom1.deranged.dk/application/o/argocd-kom1/
         clientID: bJDCFviyQcUXVIr2uXqbos5l6ZjIjBZlY0j647T4
         clientSecret: $oidc-authentik-client-secret:oidc.authentik.clientSecret
@@ -83,7 +83,7 @@ grafana.ini:
       signout_redirect_url: https://auth.<FQDN>/application/o/grafana-kom1/end-session/
       oauth_auto_login: true
     auth.generic_oauth:
-      name: AarhusAI SSO
+      name: OS2ai SSO
       enabled: true
       client_id: $__file{/etc/secrets/auth_generic_oauth/client_id}
       client_secret: $__file{/etc/secrets/auth_generic_oauth/client_secret}

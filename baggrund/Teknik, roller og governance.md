@@ -1,9 +1,9 @@
 ---
-title: 'Vi bygger AarhusAI: Teknik, roller og governance'
+title: 'Vi bygger OS2ai: Teknik, roller og governance'
 parent: Baggrund
 ---
 
-# Vi bygger AarhusAI: Teknik, roller og governance
+# Vi bygger OS2ai: Teknik, roller og governance
 
 ## Infrastruktur og sprogmodeller
 
@@ -36,7 +36,7 @@ afhængighed af én løsning eller leverandør.
 
 ### Svarkvalitet
 
-Forud for AarhusAI har vi i et andet projekt gjort os erfaringer og opnået værdifuld viden omkring svarkvalitet
+Forud for OS2ai har vi i et andet projekt gjort os erfaringer og opnået værdifuld viden omkring svarkvalitet
 og evaluering. Det handler om at kunne vurdere, hvornår/i hvilket omfang, vi kan stole på svarene og sikre
 dokumentation for, at output er baseret på kildemateriale vi selv har bragt ind i systemet. I det projekt udviklede
 vi metoder til at bearbejde og segmentere dokumenter og justere på de mange tekniske komponenter – de “tandhjul”
@@ -55,7 +55,7 @@ prototypen og på den måde fik vi en masse værdifuld feedback fra nogen, der e
 udvikle systemet til det bedre.
 
 Herunder følger en overordnet beskrivelse af de roller, der er vurderet centrale for drift,
-vedligehold, videreudvikling og udbredelse af AarhusAI. Der er ud over nedenstående
+vedligehold, videreudvikling og udbredelse af OS2ai. Der er ud over nedenstående
 roller også andre kompetencer og ressourcer i spil, eksempelvis decentral GDPR-
 rådgivning, slutbrugere, fagpersoner med særlig viden om kildemateriale til en
 specialist osv.
@@ -64,8 +64,8 @@ specialist osv.
 
 Der udpeges en Teknisk Systemejer, der har det formelle ansvar og en Product Owner, der har det operationelle
 ansvar. Tilsammen har de to roller ansvaret for vedligehold, support, videreudvikling og støtte til den videre
-udbredelse af AarhusAI på tværs af kommunen i samarbejde med Faglige Systemejere. PO’en koordinerer således alle
-tiltag rundt om AarhusAI fra teknikken til de organisatoriske aspekter og sikrere, at der arbejdes tilstrækkeligt
+udbredelse af OS2ai på tværs af kommunen i samarbejde med Faglige Systemejere. PO’en koordinerer således alle
+tiltag rundt om OS2ai fra teknikken til de organisatoriske aspekter og sikrere, at der arbejdes tilstrækkeligt
 tværgående.
 
 PO’en er envidere Aarhus Kommunes snitflade mod OS2ai-koordinationsgruppen og
@@ -75,7 +75,7 @@ Kommunes praksisnære interesser i relation til OS2ai. De primære snitflader in
 Faglige Systemejere, Builder-communitiet og relevante juridiske ressourcer i organisationen.
 
 PO’en understøtter Builder-communitiet ved at opbygge og vedligeholde best practice
-for brugen af AarhusAI og særligt opbygningen af nye specialister og assistenter. PO’en
+for brugen af OS2ai og særligt opbygningen af nye specialister og assistenter. PO’en
 vedligeholder et overblik over specialister og assistenter, så der skabes bedre grobund
 for deling og genbrug på tværs af organisationen. Der er oprettet et dokument der
 definerer en række opgaver til Builders i relation til platformen og det er PO’ens opgave,
@@ -91,14 +91,14 @@ grundlag for test af nye releases samt at koordinere tests med relevante Builder
 slutbrugere.
 
 PO’en er ansvarlig for at producere krav til brug i udbud af nye systemer, hvor der er
-forventning om at skabe en integration til AarhusAI. Det kan f.eks. være i forbindelse
+forventning om at skabe en integration til OS2ai. Det kan f.eks. være i forbindelse
 med udbud af et nyt intranetsystem, hvor der bør stilles specifikke krav til hvordan
-information lagres og kan tilgås fra AarhusAI, altså hvordan systemet og
+information lagres og kan tilgås fra OS2ai, altså hvordan systemet og
 informationerne i et nyt Aarhus Intra er ”AI ready” ”by design”.
 
 ### Data Scientist
 
-Data Scientist-rollen får kun tiltagende relevans, hvis AarhusAI skal blive en endnu
+Data Scientist-rollen får kun tiltagende relevans, hvis OS2ai skal blive en endnu
 bedre platform.
 
 Der er bl.a. opgaver omkring tilpasning af GenAI-specifikke komponenter (chunking,

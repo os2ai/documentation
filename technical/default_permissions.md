@@ -4,7 +4,7 @@ parent: Technical documentation
 ---
 
 These permissions are extracted using the
-tool [https://github.com/AarhusAI/open-webui-permissions-manager](https://github.com/AarhusAI/open-webui-permissions-manager).
+tool [https://github.com/OS2ai/open-webui-permissions-manager](https://github.com/OS2ai/open-webui-permissions-manager).
 
 ## Default permissions (standard tilladelser)
 
@@ -74,7 +74,7 @@ This is the default permission for all new groups, it is under "Groups", below t
 
 ## Build group permissions
 
-AarhusAI recommended permissions for your `Builder` group.
+OS2ai recommended permissions for your `Builder` group.
 
 ```json
 {

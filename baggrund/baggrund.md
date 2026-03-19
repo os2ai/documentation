@@ -5,11 +5,11 @@ parent: Baggrund
 
 # Baggrund og motivation
 
-AarhusAI er et bud på et supplement/alternativ til værktøjer som ChatGPT og Copilot, der er udviklet ud fra et
+OS2ai er et bud på et supplement/alternativ til værktøjer som ChatGPT og Copilot, der er udviklet ud fra et
 kommercielt og teknologidrevet perspektiv uden særlig hensyntagen til det europæiske juridiske grundlag eller
 etiske dimensioner i brugen af teknologien.
 
-Det primære behov, som AarhusAI adresserer, er datasikkerheden og derigennem muligheden for at anvende generativ
+Det primære behov, som OS2ai adresserer, er datasikkerheden og derigennem muligheden for at anvende generativ
 AI i fagnær opgaveløsning med persondata.
 
 Den globale politiske situation – ikke mindst koblingen mellem amerikansk præsidentpolitik og tech – har skabt
@@ -26,7 +26,7 @@ og digital suverænitet.
 På den lange bane handler indsatsen om at frigøre ressourcer og tid ved at reducere gentagne opgaver og samtidig sikre,
 at data behandles lovligt og sikkert.
 
-AarhusAI er et skridt på vejen mod øget anvendelse af tryg og sikker AI.
+OS2ai er et skridt på vejen mod øget anvendelse af tryg og sikker AI.
 
 ## Teknisk løsning eller forandringsredskab?
 
@@ -38,7 +38,7 @@ AI-feltet: Et spor, der handler om den enkelte medarbejders anvendelse af AI-væ
 og/eller kvalitetsbooster i dagligdagen og et spor, der handler om specifikke AI-løsninger på specifikke
 forretningsmæssige udfordringer eller ambitioner, ofte domænespecifikke systemer indkøbt hos ekspert-leverandører.
 
-AarhusAI beskrevet heri adresserer elementer i begge spor, men med særligt fokus på at kunne AI-understøtte den
+OS2ai beskrevet heri adresserer elementer i begge spor, men med særligt fokus på at kunne AI-understøtte den
 enkelte medarbejder i egen opgaveløsning samt teams og afdelinger i at kunne bygge enkle AI-løsninger til fælles,
 intern opgaveløsning (gennem individuelle, internt delte eller organisationsbrede, ”custom” chatbots baseret på
 afgrænset kildemateriale.
@@ -49,16 +49,16 @@ håndtere data om børn og udsatte borgere. Derfor bevæger organisationen sig i
 og det stiller krav til fælles mål og succeskriterier på tværs.
 
 Hver magistratsafdeling har egen Digitaliseringschef og sammen spiller de aktuelt en central rolle i at definere
-ambitionerne for AarhusAI og for AI arbejdet i kommunen generelt.
+ambitionerne for OS2ai og for AI arbejdet i kommunen generelt.
 
 I mange organisationer er det udfordrende at skabe en ensartet praksis omkring anvendelsen af generativ AI.
-AarhusAI søger at imødekomme en række spørgsmål og udfordringer, som følger deraf: Fragmentering kan skabe usikkerhed
+OS2ai søger at imødekomme en række spørgsmål og udfordringer, som følger deraf: Fragmentering kan skabe usikkerhed
 omkring gældende regler og praksis på kommune-niveau, f.eks. i relation til køb af betalte tjenester
 (”hvilke offentlige eller betalte tjenester må jeg bruge?”), datasikkerhed (”hvad må jeg bruge denne tjeneste til?”)
 eller leverandørlandskabet (”må jeg bruge OpenAI til denne type data, hvis det er via kommunens Azure-aftale?”) og det
 bidrager til at skabe et fragmenteret systemlandskab, der på kort tid kan blive ganske svært at strøm-line igen.
 
-Med afsæt til bl.a. Aarhus Kommunes Digitaliseringsstrategis princip om digital handle-frihed er AarhusAI et bud på
+Med afsæt til bl.a. Aarhus Kommunes Digitaliseringsstrategis princip om digital handle-frihed er OS2ai et bud på
 en platform, som kan understøtte udbredelsen af generativ AI generelt på en sikker og tryg vis, hvor valg og håndtering
 af leverandører, platforme, data og modeller er i hænderne på kommunen selv.
 
@@ -95,4 +95,4 @@ De generative løsninger bliver med andre ord ikke bedre end de informationer, d
 for at etablere en generel AI-platform ikke nå ordentligt i mål uden også (på et eller andet niveau) at forholde sig
 til kommunens informationsarkitektur omkring data.
 
-Denne del løser AarhusAI ikke.
+Denne del løser OS2ai ikke.

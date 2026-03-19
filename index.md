@@ -1,13 +1,12 @@
 ---
-title: Aarhus AI
+title: OS2ai
 nav_order: 1
 ---
 
-# Dokumentation for Aarhus AI
+# Dokumentation for OS2ai
 
-Velkommen til Aarhus AI. Her på sitet finder du dokumentation om produktet. Det er både henvendt til anvendere/builders,
+Velkommen til OS2ai. Her på sitet finder du dokumentation om produktet. Det er både henvendt til anvendere/builders,
 administratorer og til dem der har brug for mere teknisk dokumentation.
-Dokumentation til slutbrugere findes på Aarhus Intranet.
 
 Vi vil desuden henvise til OpenWebUIs egen dokumentation, den kan findes
 her: [https://docs.openwebui.com/](https://docs.openwebui.com/)

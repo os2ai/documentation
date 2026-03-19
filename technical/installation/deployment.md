@@ -5,9 +5,9 @@ has_children: false
 nav_order: 2
 ---
 
-# AarhusAI GitOps usage
+# OS2ai GitOps usage
 
-To install AarhusAI with this GitOps [template](https://github.com/AarhusAI/helm-deployments), you need to have a
+To install OS2ai with this GitOps [template](https://github.com/OS2ai/helm-deployments), you need to have a
 Kubernetes cluster with the following installed:
 
 * Helm 3
@@ -22,7 +22,7 @@ The application also requires generation of API keys, etc., and that you use sea
 given service can be installed. Some services also require keys/secrets from one service to communicate with another.
 
 Also, because all configuration is stored in GitOps as code, you will need to update secrets and URLs to match your
-domain and setup. This document will guide you through the process of setting up AarhusAI.
+domain and setup. This document will guide you through the process of setting up OS2ai.
 
 ## Variables
 
@@ -52,7 +52,7 @@ echo "$(cat /dev/urandom | tr -dc 'a-f0-9' | fold -w 32 | head -n 1)"
 
 The first step is
 to [create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-a new GitHub repository based on this [template repository](https://github.com/AarhusAI/helm-deployments).
+a new GitHub repository based on this [template repository](https://github.com/OS2ai/helm-deployments).
 
 ### ArgoCD
 
@@ -107,7 +107,7 @@ change the repository URL to our own repository.
 Edit `applications/argo-cd-resources/values.yaml`:
 
 ```yaml
-repoUrl: https://github.com/aarhusai/<YOUR REPO>.git
+repoUrl: https://github.com/os2ai/<YOUR REPO>.git
 ```
 
 Edit `applications/cert-manager/templates/cluster-issuer.yaml` and change the email address to your own:
@@ -367,7 +367,7 @@ affect another. It filters out paid results and AI-generated results.
 
 In Aarhus, we have made an engine that searches [https://aarhus.dk/search](https://aarhus.dk/search) and places its
 results high in the final federated search. For reference,
-see the [implementation](https://github.com/AarhusAI/aarhusai-docker/blob/main/.docker/searxng/aarhus.py).
+see the [implementation](https://github.com/OS2ai/aarhusai-docker/blob/main/.docker/searxng/aarhus.py).
 
 Create the file `local-secrets/searxng-secret.yaml`:
 
@@ -394,10 +394,10 @@ commit, and push the changes to have Argo deploy automatically.
 
 ## Open WebUI
 
-[Open WebUI](https://docs.openwebui.com/) is the main application that binds the whole AarhusAI stack together by
+[Open WebUI](https://docs.openwebui.com/) is the main application that binds the whole OS2ai stack together by
 providing the framework to chat with the LLM(s) and making RAG-based models. It has a lot of features that can be
 controlled through [environment variables](https://docs.openwebui.com/getting-started/env-configuration).
-The deployment comes with some default values that match the current AarhusAI setup, but you can change them
+The deployment comes with some default values that match the current OS2ai setup, but you can change them
 to fit your needs in `values.yaml`.
 
 Also note, that `was-middleware.yaml` found in the openwebui templates folder should be updated to match your

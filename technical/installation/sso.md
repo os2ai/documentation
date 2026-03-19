@@ -5,10 +5,10 @@ has_children: false
 nav_order: 3
 ---
 
-Open WebUI supports SSO with different providers. AarhusAI has been extended for better support for OIDC groups and role
-claims from Microsoft OIDC. The default AarhusAI docker
-image [ghcr.io/aarhusai/open-webui](https://ghcr.io/aarhusai/open-webui)
-has been patched with [https://github.com/AarhusAI/open-webui/pull/33](https://github.com/AarhusAI/open-webui/pull/33).
+Open WebUI supports SSO with different providers. OS2ai has been extended for better support for OIDC groups and role
+claims from Microsoft OIDC. The default OS2ai docker
+image [ghcr.io/os2ai/open-webui](https://ghcr.io/os2ai/open-webui)
+has been patched with [https://github.com/aarhusai/open-webui/pull/33](https://github.com/aarhusai/open-webui/pull/33).
 
 This patch allows configurable mapping of groups and roles from OIDC claims to groups in Open WebUI. It also ensures
 that the `builder` role from claims is mapped to the `Builder` group, as this group is responsible for giving

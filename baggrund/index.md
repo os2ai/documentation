@@ -6,7 +6,7 @@ nav_order: 2
 
 # Baggrund
 
-Beskrivelsen her er skrevet med afsæt i Aarhus Kommunes erfaringer med tilblivelsen af AarhusAI
+Beskrivelsen her er skrevet med afsæt i Aarhus Kommunes erfaringer med tilblivelsen af OS2ai
 – det, der nu ultimo 2025 er udgangspunktet for OS2ai.
 
 Læserens opmærksomhed henledes på, at det er skrevet med udgangspunkt i konteksten af Aarhus Kommunes størrelse,
@@ -16,7 +16,7 @@ er en 1:1 guide til hvordan andre kommuner skal gøre – men skal alene ses som
 dialog og afklaring af prioriteter, ressourcer, kompetencer og andre aspekter af brugen af OS2ai og generativ AI
 generelt.
 
-AarhusAI (og dermed erfaringerne beskrevet her) er skabt til Aarhus Kommune og derfor kan der være betragtninger
+OS2ai (og dermed erfaringerne beskrevet her) er skabt til Aarhus Kommune og derfor kan der være betragtninger
 omkring beslutninger, governance, ressourcer m.v., som nu skal ses i et nyt lys i arbejdet med OS2ai, hvor flere
 ting vil ske i fællesskabet (og ikke i Aarhus Kommune selv, som ellers var og er det nødvendige udgangspunkt indtil
 OS2ai er en realitet).

@@ -19,8 +19,8 @@ Som builder skal du huske:
 
 ## Udestående funktioner
 
-Aarhus AI er ikke en som chatGPT, co-pilot og de andre. AarhusAI er et OpenSource produkt bygget på OpenWebUI (og meget
-mere, det kan i læse om i den tekniske dokumentation hvis i er nysgerrige) og der er mangler i produktet. Aarhus AI kan
+OS2ai er ikke en som chatGPT, co-pilot og de andre. OS2ai er et OpenSource produkt bygget på OpenWebUI (og meget
+mere, det kan i læse om i den tekniske dokumentation hvis i er nysgerrige) og der er mangler i produktet. OS2ai kan
 f.eks. ikke
 
 - læse et regneark rigtigt

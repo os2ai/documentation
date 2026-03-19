@@ -7,15 +7,15 @@ nav_order: 3
 
 # Text-to-Speech (TTS) and Speech-to-Text (STT)
 
-The TTS and STT engines are optional components for AarhusAI, fully supported by Open WebUI. These components are
+The TTS and STT engines are optional components for OS2ai, fully supported by Open WebUI. These components are
 optional because they require a dedicated GPU to run.
 
 ## Installation
 
 Deploy these services from the following repositories or use any solution that supports the OpenAI Audio API:
 
-* [https://github.com/AarhusAI/whisper-api](https://github.com/AarhusAI/whisper-api) - Speech-to-Text
-* [https://github.com/AarhusAI/piper-tts](https://github.com/AarhusAI/piper-tts) - Text-to-Speech
+* [https://github.com/OS2ai/whisper-api](https://github.com/OS2ai/whisper-api) - Speech-to-Text
+* [https://github.com/OS2ai/piper-tts](https://github.com/OS2ai/piper-tts) - Text-to-Speech
 
 See the links above for detailed installation instructions and configuration options.
 
@@ -34,7 +34,7 @@ kubectl create -f local-secrets/openwebui-secrets.yaml --dry-run=client -o yaml 
 Edit `applications/openwebui/values.yaml` in the Helm chart and add the following environment variables:
 
 ```yaml
-# STT (whisper) - OPTIONAL IF YOU WANT TO USE SPEECH-TO-TEXT (https://github.com/AarhusAI/whisper-api)
+# STT (whisper) - OPTIONAL IF YOU WANT TO USE SPEECH-TO-TEXT (https://github.com/OS2ai/whisper-api)
 - name: AUDIO_STT_ENGINE
   value: "openai"
 - name: AUDIO_STT_OPENAI_API_BASE_URL
@@ -45,7 +45,7 @@ Edit `applications/openwebui/values.yaml` in the Helm chart and add the followin
       name: openwebui-secrets
       key: STT_API_KEY
 
-# TTS (piper) - OPTIONAL IF YOU WANT TO USE TEXT-TO-SPEECH (https://github.com/AarhusAI/piper-tts)
+# TTS (piper) - OPTIONAL IF YOU WANT TO USE TEXT-TO-SPEECH (https://github.com/OS2ai/piper-tts)
 - name: AUDIO_TTS_ENGINE
   value: "openai"
 - name: AUDIO_TTS_OPENAI_API_BASE_URL

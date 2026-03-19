@@ -1,29 +1,29 @@
 ---
-title: 'Vi har AarhusAI: Nye muligheder, arbejdsgange og opgaver'
+title: 'Vi har OS2ai: Nye muligheder, arbejdsgange og opgaver'
 parent: Baggrund
 ---
 
-# Vi har AarhusAI: Nye muligheder, arbejdsgange og opgaver
+# Vi har OS2ai: Nye muligheder, arbejdsgange og opgaver
 
-AarhusAI blev i august 2025 lanceret som en “soft launch” med opfordring til at indsende løbende feedback.
+OS2ai blev i august 2025 lanceret som en “soft launch” med opfordring til at indsende løbende feedback.
 Platformen bevæger sig således gradvist fra afprøvning til hverdag. Det betyder, at adgang og brug vil blive
 mere udbredt, samtidig med at brugerne løbende får mulighed for at give feedback, som kan blive omsat til forbedringer.
 
 Vi ønsker at undgå overfladiske målsætninger, der ikke siger noget om platformens reelle værdi. Derfor bliver en
 vigtig tilgang at skabe en kontinuerlig feedback-loop med brugerne for at forstå deres oplevelser og forventninger.
 
-Hvis AarhusAI over tid skal blive et stærkt og sikkert alternativ til de kommercielle værktøjer, kræver det dedikerede
+Hvis OS2ai over tid skal blive et stærkt og sikkert alternativ til de kommercielle værktøjer, kræver det dedikerede
 ressourcer og ledelsesmæssig forankring. Platformens succes kan fx måles på, om den enkelte bruger vender tilbage og
 oplever værdi i sin dagligdag. Det handler ikke kun om effektivitet, men også om kvalitet – og om at skabe nye
-samarbejder, hvor AarhusAI kan fungere som sparringspartner og dialogstarter mellem kolleger. Hvis der opstår en aktiv
+samarbejder, hvor OS2ai kan fungere som sparringspartner og dialogstarter mellem kolleger. Hvis der opstår en aktiv
 brugerbase, hvor brugerne hurtigt giver feedback og fortsat vælger platformen til, er det en stærk indikator for, at den
 giver værdi.
 
-Ambitionen er, at AarhusAI bliver et varigt element i kommunens digitale værktøjskasse. Fremtiden handler om at sikre
-både bred forankring og ansvarlig anvendelse af AI generelt på tværs af kommunens mange enheder og her kan AarhusAI være
+Ambitionen er, at OS2ai bliver et varigt element i kommunens digitale værktøjskasse. Fremtiden handler om at sikre
+både bred forankring og ansvarlig anvendelse af AI generelt på tværs af kommunens mange enheder og her kan OS2ai være
 en grundsten på teknisk såvel som organisatorisk plan.
 
-På længere sigt kan AarhusAI blive en byggesten i nye arbejdsformer – ikke kun digitalt, men også som basis for
+På længere sigt kan OS2ai blive en byggesten i nye arbejdsformer – ikke kun digitalt, men også som basis for
 automatisering, robotteknologi og beslutningsstøtte. Men denne fremtid kræver fortsat ansvarlighed, klare rammer
 og en menneskelig forståelse af, hvordan teknologien bruges.
 
@@ -35,7 +35,7 @@ platformens succes
 udfordringer, der måtte være, når der skal bygges en ny chatbot. For at Builders
 ikke mister modet og udbredelsen dermed mister momentum
 • At governance og organisering rundt om platformen er vigtig og tydelig
-• At entydigt systemejerskab og det nødvendige setup rundt om AarhusAI
+• At entydigt systemejerskab og det nødvendige setup rundt om OS2ai
 generelt er vigtigt; organisering, kompetence, økonomi, support m.v.
 
 Forud for implementeringen af en ønskværdig use case ligger et analyse- og dokumen-
@@ -46,7 +46,7 @@ systematisk tilgang til den løbende forretningsudvikling som forbrænder til de
 specialister m.v.
 
 Vi skal med andre ord have ressourcer og metode til at afdække og kvalificere – f.eks. gennem brugerrejser og
-AI Screeningsværktøjet – detaljerne omkring en given use case før vi implementerer den i AarhusAI eller i øvrigt.
+AI Screeningsværktøjet – detaljerne omkring en given use case før vi implementerer den i OS2ai eller i øvrigt.
 
 Det handler bl.a. også om at støtte forretningen i at vælge den rette generative model til opgaven, foretage
 systematisk evaluering af samme konkrete prompts på forskellige modeller, hvor svarene kan give nogle pejlemærker
@@ -80,14 +80,14 @@ køber en eksisterende platform ”ude i byen”, da det i vid udstrækning hand
 organiserer os klogt rundt om den tekniske platform og får skabt liv og energi, så vi sikrer
 at platformen får den forretningsmæssige og faglige værdi, den har potentiale til.
 
-Som opfølgning på udviklingen af AarhusAI er en række processer kortlagt. Der vil rundt
+Som opfølgning på udviklingen af OS2ai er en række processer kortlagt. Der vil rundt
 om platformen være processer, der er ”kendte” systemejeropgaver – men dertil en
 række processer, som opstår, fordi der arbejdes med generativ AI og fordi feltet hele
 tiden rykker sig med stormskridt.
 
 Formålet med kortlægningen af processerne er ikke at diktere, hvordan opgaver skal
 udføres (om end ensartethed kan bidrage til mange ting) eller af hvem. Formålet har
-været at synliggøre hvilke roller, der aktiveres i arbejdet med AarhusAI og hvad omfanget
+været at synliggøre hvilke roller, der aktiveres i arbejdet med OS2ai og hvad omfanget
 af den enkeltes involvering er.
 
 Hensigten er at synliggøre et ressourcetræk på tværs af roller, så det bliver synligt, hvor mange timer der
