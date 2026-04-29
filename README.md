@@ -4,7 +4,7 @@
 
 It can be accessed at [https://os2ai.github.io/documentation/](https://os2ai.github.io/documentation/).
 
-All the technical documentation has is in english and the end-user documentation is in danish.
+All the technical documentation is in english and the end-user documentation is in danish.
 
 ## How to contribute
 
