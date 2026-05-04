@@ -12,8 +12,8 @@ etiske dimensioner i brugen af teknologien.
 Det primære behov, som OS2ai adresserer, er datasikkerheden og derigennem muligheden for at anvende generativ
 AI i fagnær opgaveløsning med på sigt arbejde med persondata.
 
-Den globale politiske situation har skabt usikkerhed og et ønske om at eje egne løsninger i Europa og Danmark. Der findes eksempler på services, 
-der pludselig er blevet lukket ned af politiske grunde i USA, og
+Den globale politiske situation har skabt usikkerhed og et ønske om at eje egne løsninger i Europa og Danmark. 
+Der findes eksempler på services, der pludselig er blevet lukket ned af politiske grunde i USA, og
 lovgivningen giver de amerikanske efterretningstjenester mulighed for at tilgå data, de finder relevante.
 
 Denne usikkerhed har ført til et ønske om alternativer til de store amerikanske tech-løsninger, som er blevet
