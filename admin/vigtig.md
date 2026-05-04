@@ -8,7 +8,7 @@ Når I får applikationen mellem hænderne, vil I have fulde administratorrettig
 giver stor frihed, men det medfører også en risiko for at påvirke performance og stabilitet, hvis der ændres i de
 centrale indstillinger i produktionsmiljøet.
 Det er OS2ais anbefaling, at I på nuværende tidspunkt træder varsomt ift at ændre i indstillingerne i OpenWebUIs
-administratorpanel. 
+administratorpanel.
 Vi anbefaler desuden, at kun meget få personer i jeres organisation (fortrinsvis systemejere) tildeles administratorrettigheder.
 Hvis I ændrer i indstillingerne, kan det betyde:
 
