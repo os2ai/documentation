@@ -1,5 +1,5 @@
 ---
-title: Baggrund og motivation
+title: Baggrund og motivation for opstarten i Aarhus Kommune
 parent: Baggrund
 ---
 
@@ -10,16 +10,15 @@ kommercielt og teknologidrevet perspektiv uden særlig hensyntagen til det europ
 etiske dimensioner i brugen af teknologien.
 
 Det primære behov, som OS2ai adresserer, er datasikkerheden og derigennem muligheden for at anvende generativ
-AI i fagnær opgaveløsning med persondata.
+AI i fagnær opgaveløsning med på sigt arbejde med persondata.
 
-Den globale politiske situation – ikke mindst koblingen mellem amerikansk præsidentpolitik og tech – har skabt
-usikkerhed. Der findes eksempler på services, der pludselig er blevet lukket ned af politiske grunde i USA, og
+Den globale politiske situation har skabt usikkerhed og et ønske om at eje egne løsninger i Europa og Danmark. Der findes eksempler på services, der pludselig er blevet lukket ned af politiske grunde i USA, og
 lovgivningen giver de amerikanske efterretningstjenester mulighed for at tilgå data, de finder relevante.
 
 Denne usikkerhed har ført til et ønske om alternativer til de store amerikanske tech-løsninger, som er blevet
 stærkt politiserede.
 
-Derfor har vi i Aarhus rettet blikket mod open source-verdenen og har i 2025 sat forskellige komponenter sammen
+Derfor rettede Aarhus Kommune i 2025 blikket mod open source-verdenen og satte forskellige komponenter sammen
 med ambitionen om at skabe et alternativ til big tech-platformene. Det handler grundlæggende om at sikre handlefrihed
 og digital suverænitet.
 
