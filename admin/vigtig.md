@@ -1,5 +1,5 @@
 ---
-title: Vigtigt: Håndtering af administratorrettigheder i OpenWebUI
+title: Vigtigt - Håndtering af administratorrettigheder i OpenWebUI
 parent: Admin
 ---
 # Vigtigt: Håndtering af administratorrettigheder i OpenWebUI
