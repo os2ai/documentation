@@ -7,7 +7,7 @@ nav_order: 2
 # Baggrund
 
 Beskrivelsen her er skrevet med afsæt i Aarhus Kommunes erfaringer med tilblivelsen af OS2ai
-– det, der nu ultimo 2025 er udgangspunktet for OS2ai.
+– det der nu er udgangspunktet for OS2ai.
 
 Læserens opmærksomhed henledes på, at det er skrevet med udgangspunkt i konteksten af Aarhus Kommunes størrelse,
 organisering m.v. og alene er til inspiration og videregivelse af erfaringer. Det er således ikke tanken at det
