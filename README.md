@@ -1,32 +1,45 @@
-# AI-docs
+# 🚀 OS2ai dokumentation
 
-## The pages
+Velkommen til det centrale knudepunkt for AI-dokumentation! Vi er glade for, at du er her. Dette projekt er dedikeret til at gøre viden om AI tilgængelig, struktureret og brugbar for alle.
 
-It can be accessed at [https://os2ai.github.io/documentation/](https://os2ai.github.io/documentation/).
+## 🌐 Besøg dokumentationen her!
+Det vigtigste først – du finder den fulde, færdige side lige her:
 
-All the technical documentation is in english and the end-user documentation is in danish.
+### 👉 **[https://os2ai.github.io/documentation/](https://os2ai.github.io/documentation/)** 👈
 
-## How to contribute
+---
 
-All contribution should be through pull requests and have to pass workflow actions and linting
-of the markdown files.
+## 📚 Sprog og indhold
+Vi favner bredt! For at sikre den bedste oplevelse for alle brugere, er indholdet opdelt:
 
-## Github pages for Docs
+*   **Technical Documentation:** Written in **English** for developers and experts. 🛠️
+*   **Slutbruger-dokumentation:** Skrevet på **dansk** til daglig brug og vejledning. 🇩🇰
 
-We
-use [Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
-to create a static site for our documentation.
+---
 
-### Testing your GitHub Pages site locally with Jekyll
+## ✍️ Vil du være med? (How to contribute)
+Vi elsker bidrag! Uanset om du har fundet en stavefejl eller har skrevet en helt ny guide, så er du mere end velkommen.
 
-Check
-the [GitHub documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
-on how to setup Jekyll locally
+**Sådan gør du:**
+1.  Send os et **Pull Request**.
+2.  Vores automatiske workflows tjekker din kode og sørger for, at markdown-filerne sidder lige i skabet (linting).
+3.  Når alt er godkendt, bliver dit bidrag en del af fællesskabet!
 
-Then from the root folder run the command
+---
 
-```sh
-bundle exec jekyll serve
-```
+## 🛠️ Bag om kulissen (GitHub Pages)
+Vi bruger [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) kombineret med Jekyll for at skabe en lynhurtig og lækker statisk side.
 
-This will build and serve the site locally.
+### Vil du teste lokalt på din egen maskine?
+Det er super nemt at se dine ændringer, før du uploader dem:
+
+1.  Tjek [GitHubs guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) til opsætning af Jekyll.
+2.  Kør følgende kommando fra projektets rod:
+    ```sh
+    bundle exec jekyll serve
+3.  Vupti! Siden kører nu lokalt på din computer, så du kan tjekke alt igennem.
+
+## ⚖️ Licens
+Dette projekt er skabt til at blive delt og lært af!
+
+This work is licensed under a CC BY-NC 4.0 License.
