@@ -1,6 +1,6 @@
 ---
 title: Ordforklaring
-parent: Slutbruger
+parent: Funktioner OS2ai
 ---
 
 # Ordforklaring
