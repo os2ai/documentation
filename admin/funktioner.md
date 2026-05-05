@@ -1,6 +1,6 @@
 ---
 title: Nuværende funktioner
-parent: Admin
+parent: Funktioner OS2ai
 ---
 ## Nuværende funktioner
 
