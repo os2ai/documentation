@@ -1,6 +1,6 @@
 # 🚀 OS2ai dokumentation
 
-Velkommen til det centrale knudepunkt for AI-dokumentation! Vi er glade for, at du er her.  
+Velkommen til det centrale knudepunkt for OS2ai-dokumentation! Vi er glade for, at du er her.  
 Dette projekt er dedikeret til at gøre viden om AI tilgængelig, struktureret og brugbar for alle.
 
 ## 🌐 Besøg dokumentationen her
