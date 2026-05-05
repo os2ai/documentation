@@ -1,12 +1,12 @@
 ---
-title: Ordforråd
+title: Ordforklaring
 parent: Slutbruger
 ---
 
-# Ordforråd
+# Ordforklaring
 
 Når man arbejder med AI er der en række forskellige ord og begreber, nogen bruges meget forskelligt.
-Nedenfor har vi listet en række ord og en definition som vi anvender dem i Aarhus Kommune.
+Nedenfor har vi listet en række ord og en definition som vi anvender dem i OS2ai.
 
 | Type | Beskrivelse | Eksempler |
 | :--- | :--- | :--- |
