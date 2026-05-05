@@ -6,7 +6,7 @@ nav_order: 4
 
 # Admin
 
-Her finder du informationer om hvordan du kan konfigurere din OpenWebUI som administrator og hvordan AAK tester nye releases.
+Her finder du informationer om hvordan du kan konfigurere din OpenWebUI som administrator og hvordan vi tester nye releases.
 
 Vær opmærksom på at noget af konfiguration kommer som "configuration as code" mens andet gemmes i databasen.
 Ændringer du laver i konfiguration kan derfor blive overskrevet når der kommer opdateringer. Tag gerne kontakt
