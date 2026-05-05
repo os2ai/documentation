@@ -5,11 +5,9 @@ parent: Admin
 
 # Brugere - grupper og rettigheder
 
-# Brugere og brugergrupper
+OpenWebUI har som standard 2 roller: Administrator og bruger.  
 
-OpenWebUI har som standard 2 roller: Administrator og bruger. 
-
-OS2ai har udviddet dette med en rolle vi kalder "builder". 
+OS2ai har udviddet dette med en rolle vi kalder "builder".  
 Dette har vi gjort fordi vi har et behov for at nogle brugere kan anvende specialister og assistenter, og andre kan bygge
 assistenter, men ikke har administrator rettigheder.
 
