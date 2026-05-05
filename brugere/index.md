@@ -4,6 +4,20 @@ has_children: true
 nav_order: 7
 ---
 
-# Brugere
+# Brugere og brugergrupper
 
-Tekst
+OpenWebUI har som standard 2 roller: Administrator og bruger. 
+
+OS2ai har udviddet dette med en rolle vi kalder "builder". 
+Dette har vi gjort fordi vi har et behov for at nogle brugere kan anvende specialister og assistenter, og andre kan bygge
+assistenter, men ikke har administrator rettigheder.
+
+En Builder i OS2ai er en brugergruppe, der giver brugeren flere rettigheder. I OpenWebUI giver man rettigheder til
+brugergrupper og ikke til roller. Derfor har vi oprettet en gruppe, der hedder "Builder" (det er vigtigt at den hedder "
+Builder") der har udviddet rettighederne for de brugere der er i gruppen.
+
+Der en patch der i brugeroverblikket viser rollen "Builder". Derudover har vi i vores brugerstyring lavet en mapning fra
+rollen "Builder" til OpenWebUI så en bruger der kommer med rollen "Builder" placeres i gruppen "Builder" i OpenWebUI.
+
+Under hver enkelt rolle i navigationen kan man læse om de permissions der er tildelt de enkelte roller.
+Under "Technical documentation" kan man også finde et json output af rollekonfigurationen i Aarhus AI.
