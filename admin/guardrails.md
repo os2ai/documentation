@@ -1,6 +1,6 @@
 ---
 title: Guardrails
-parent: Builder
+parent: Admin
 ---
 
 # Guardrails
@@ -8,9 +8,9 @@ parent: Builder
 Guardrails er software der hjælper med at sikre output fra sprogmodellen. Det kan f.eks. anvendes til at sikre at
 sprogmoddelen overholder etiske, sproglige og persondatamæssige begrænsninger.
 
-## Guardrails i AAK og OS2ai
+## Guardrails i OS2ai
 
-I OS2ai findes der pt. kun en guardrail der sikrer et flydende context vindue (så systemet ikke laver en fejl
+I OS2ai findes der ét guardrail, der sikrer et flydende context vindue (så systemet ikke laver en fejl
 når contexten bliver fyldt).
 
 Man kan finde dem her:
