@@ -17,7 +17,9 @@ Siden er stadig under udvikling
 Vi favner bredt! For at sikre den bedste oplevelse for alle brugere, er indholdet opdelt:
 
 * **Technical Documentation:** Written in **English** for developers and experts. 🛠️
-* **Slutbruger-dokumentation:** Skrevet på **dansk** til daglig brug og vejledning. 🇩🇰
+* **Systemejer-dokumentation:** Skrevet på **dansk** til daglig brug og vejledning til lokale systemejere. 🇩🇰
+
+NB: dokumentationen er ikke henvendt til slutbrugere af OS2ai
 
 ---
 
