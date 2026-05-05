@@ -25,3 +25,7 @@ Opgaven med release management håndteres af en release manager, det er beskreve
    ud.
 
 <img src="images/releaseman.png" alt="figur med ovenstående proces"/>
+
+## Koordinationsgruppens rolle
+Når en ny release frigives til demositet tester Koordinationsgruppen i OS2ai releasen. Koordinationsgruppen kan f.eks. teste nye funktionaliteter, men også at lokalt-udviklede AI-assistenter stadig fungerer. 
+Kommunikation omkring ny release foregår på OS2samtale.
