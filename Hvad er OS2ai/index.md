@@ -3,7 +3,7 @@ title: Hvad er OS2ai
 nav_order: 2
 ---
 
-Hvad er OS2ai
+## Hvad er OS2ai
 
 OS2ai er en medarbejderrettet generativ AI-platform til offentlige myndigheder.  
 Kunstig intelligens er allerede ved at ændre den måde, vi arbejder på i den offentlige sektor. Men med mulighederne følger også en risiko, nemlig at vi mister kontrollen over vores data, vores arbejdsgange og i sidste ende retningen for, hvordan teknologien bruges.
