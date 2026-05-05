@@ -2,6 +2,8 @@
 title: Nuværende funktioner
 parent: Funktioner OS2ai
 ---
+# Funktioner i OS2ai
+
 ## Nuværende funktioner
 
 - En browserbaseret platform, der kan tilgås via desktop og mobil
