@@ -26,6 +26,7 @@ Vi favner bredt! For at sikre den bedste oplevelse for alle brugere, er indholde
 Vi elsker bidrag! Uanset om du har fundet en stavefejl eller har skrevet en helt ny guide, så er du mere end velkommen.
 
 **Sådan gør du:**
+
 1. Send os et **Pull Request**.
 2. Vores automatiske workflows tjekker din kode og sørger for, at markdown-filerne sidder lige i skabet (linting).
 3. Når alt er godkendt, bliver dit bidrag en del af fællesskabet!
@@ -34,18 +35,21 @@ Vi elsker bidrag! Uanset om du har fundet en stavefejl eller har skrevet en helt
 
 ## 🛠️ Bag om kulissen - GitHub Pages
 
-Vi bruger [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)  
-kombineret med Jekyll for at skabe en lynhurtig og lækker statisk side.
+Vi bruger GitHub Pages kombineret med Jekyll for at skabe en lynhurtig og lækker statisk side.
+(https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)  
 
 ### HVis du vil køre lokalt på din egen maskine
 
 Det er super nemt at se dine ændringer, før du uploader dem:
 
-1. Tjek [GitHubs guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) til opsætning af Jekyll.
-2. Kør følgende kommando fra projektets rod:
+1. Tjek GitHubs guide til opsætning af Jekyll.
+(https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) 
+3. Kør følgende kommando fra projektets rod:
+
     ```sh
     bundle exec jekyll serve
-3. Vupti! Siden kører nu lokalt på din computer, så du kan tjekke alt igennem.
+    
+5. Vupti! Siden kører nu lokalt på din computer, så du kan tjekke alt igennem.
 
 ## ⚖️ Licens
 
