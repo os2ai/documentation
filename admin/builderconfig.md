@@ -3,16 +3,14 @@ title: Builder rolle
 parent: Admin
 ---
 
-# Builder rolle og rettigheder
-
-## Konfiguration af builder rolle
+# Konfiguration af builder rolle
 
 OpenWebUI kommer med to roller:
 
 - bruger
 - administrator
 
-I AAK blev det hurtigt tydeligt at der var behov for en rolle der kunne bygge specialister/assistenter,
+I Aarhus Kommune blev det hurtigt tydeligt at der var behov for en rolle der kunne bygge specialister/assistenter,
 samt en rolle der kune kunne anvende specialister og assistenter. For at imødekomme dette har vi lavet builder-rollen.
 
 Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til at lave rollen. Det er gjort således:
