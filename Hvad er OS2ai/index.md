@@ -22,5 +22,5 @@ OS2ai gør det muligt at bruge generativ AI i praksis, på tværs af organisatio
 ## Mission
 OS2ai udvikler og vedligeholder en fælles, open source-baseret medarbejderrettet generativ AI-platform for den offentlige sektor, som gør det sikkert at tage generativ AI i brug. Platformen bygger på fælles governance, delte omkostninger og fuld kontrol over data og teknologi samt valgfrihed. Platformen skaber et fælles grundlag for lokalt at udvikle, dele og skalere løsninger - til gavn for offentligt ansatte og i sidste ende borgere.
 
-Kildekoden findes her: https://github.com/os2ai  
-Link til demo-video: https://boks.os2.eu/s/xZEor2NG6QKGe2D
+[Kildekoden findes her] (https://github.com/os2ai)  
+[Link til demo-video] (https://boks.os2.eu/s/xZEor2NG6QKGe2D)
