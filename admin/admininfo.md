@@ -20,4 +20,3 @@ applikationsleverandøren.
 ## Hvorfor er indstillingerne som de er?
 
 Kort: det er det vi i Aarhus har læst/eksperimenteret os frem til virker for os.
-
