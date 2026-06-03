@@ -18,4 +18,4 @@ skal omsætte den dokumentationen til egentlig vidensdeling i egen organisation.
 For konkret viden og vejledning i OpenWebUI (OS2ais frontend komponent) henvises til OpenWebUIs egen dokumentation,
 den kan findes her: [https://docs.openwebui.com/](https://docs.openwebui.com/)
 
-**Siden er under konstant udvikling og vi bestræber os på at den altid vil være opdateret med den nyeste viden** {{< mdl-disable "<!-- markdownlint-disable MD036 -->" >}}
+**Siden er under konstant udvikling og vi bestræber os på at den altid vil være opdateret med den nyeste viden** {{< mdl-disable "<!-- markdownlint-disable MD036 -->" >}}{{< mdl-disable "<!-- markdownlint-disable MD013 -->" >}}
