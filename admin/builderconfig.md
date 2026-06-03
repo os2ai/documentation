@@ -23,10 +23,12 @@ Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til
 5. Gem gruppen
 6. Åbn gruppen igen for at tilføje medlemmer - det gøres i venstre side ved at trykke "Brugere"
 
-Det kan godt være at du har brug at konfigurere rettighederne anderledes end Aarhus Kommune har gjort, det skal du være så
-velkommen til. Hvis du er i tvivl om hvad en rettighed betyder kan der måske hentes viden i OpenWebUIs dokumentation.
-I Aarhus Kommune har vi mange grupper i systemet (500+) da vi udover rettighedgruppen "Builder", også har almindelige
-brugergrupper der afhænger af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører en person f.eks. flg. grupper
+Det kan godt være at du har brug at konfigurere rettighederne anderledes end Aarhus Kommune har gjort, det skal du være
+så velkommen til. Hvis du er i tvivl om hvad en rettighed betyder kan der måske hentes viden i OpenWebUIs
+dokumentation.
+I Aarhus Kommune har vi mange grupper i systemet (500+) da vi udover rettighedsgruppen "Builder", også har almindelige
+brugergrupper der afhænger af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører en person
+f.eks. flg. grupper
 
 - Aarhus Kommune
 - MKB

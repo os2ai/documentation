@@ -6,15 +6,13 @@ parent: Admin
 
 \---
 
-
-
 \# Indstillinger i administrationspanelet
 
 
 
 Når man er administrator har man mulighed for at ændre indstillinger under administration
 
-(adminstrationspanel -> indstillinger). Da applikationen er lavet så den i udgangspunktet anvender
+(administrationspanel -> indstillinger). Da applikationen er lavet så den i udgangspunktet anvender
 
 "configuration as code" hvor indstillingerne gemmes, versioneres og releases, vil ændringer lavet
 
@@ -41,8 +39,4 @@ applikationsleverandøren.
 
 
 Kort: det er det vi i Aarhus har læst/eksperimenteret os frem til virker for os
-
-
-
-
 
