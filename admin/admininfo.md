@@ -6,6 +6,8 @@ parent: Admin
 
 \---
 
+
+
 \# Indstillinger i administrationspanelet
 
 
@@ -38,5 +40,7 @@ applikationsleverandøren.
 
 
 
-Kort: det er det vi i Aarhus har læst/eksperimenteret os frem til virker for os
+Kort: det er det vi i Aarhus har læst/eksperimenteret os frem til virker for os.
+
+
 

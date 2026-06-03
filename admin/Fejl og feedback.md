@@ -17,4 +17,4 @@ Hvis du har spørgsmål til anvendelsen har fællesskabet omkring OS2ai adgang t
 kan deles på tværs. Du kan også orientere dig i OpenWebUIs eget vejledningsbibliotek.
 
 Hvis du oplever fejl i kildekoden - eller har feedback og ønsker til kildekoden - kan du oprette et issue i dette
-repository på GitHub: https://github.com/os2ai/Feedback
+repository på GitHub: [https://github.com/os2ai/Feedback](https://github.com/os2ai/Feedback)
