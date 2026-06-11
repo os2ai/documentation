@@ -1,9 +1,9 @@
 ---
-title: Release 0.8.10
+title: Release 0.5.0
 parent: Releases
 ---
 
-# Release 0.8.12
+# Release 0.5.0
 
 Releasen indeholder:
 
