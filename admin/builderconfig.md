@@ -49,7 +49,7 @@ rettigheder der er konfigureret her. Vi bruger standardrettighederne til vores o
 dækker over de rettigheder man har som almindelig bruger af systemet (altså ikke builder-rettigheder). Når en
 bruger kun placeres i en organsiatorisk gruppe har vedkommende så "kun" standardrettighederne, og det er derfor
 ikke nødvending at have en ekstra rolle-gruppe til en almindelig bruger. Du kan se hvordan vores standard
-rettigheder er konfigureret her: [slutbruger rettigheder](../slutbruger/rettigheder.md).
+rettigheder er konfigureret her: [slutbruger rettigheder](https://aarhusai.github.io/documentation/slutbruger/rettigheder.html).
 
 ## Base modeller
 
