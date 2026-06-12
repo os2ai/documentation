@@ -19,7 +19,7 @@ Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til
 2. Navngiv gruppen "builder", skriv en passende beskrivelse
 3. Under indstillingen "Hvem kan dele til denne gruppe" vælges "Medlemmer"
 4. Gå til menupunktet "rettigheder" og konfigurer de rettigheder du ønsker
-   (du kan se hvordan AAK har konfigureret her [AAK builder rettigheder](https://github.com/os2ai/documentation/pull/7/))
+   (du kan se hvordan AAK har konfigureret her [AAK builder rettigheder](https://aarhusai.github.io/documentation/builder/rettigheder.html)
 5. Gem gruppen
 6. Åbn gruppen igen for at tilføje medlemmer - det gøres i venstre side ved at trykke "Brugere"
 
