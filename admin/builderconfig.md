@@ -19,14 +19,16 @@ Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til
 2. Navngiv gruppen "builder", skriv en passende beskrivelse
 3. Under indstillingen "Hvem kan dele til denne gruppe" vælges "Medlemmer"
 4. Gå til menupunktet "rettigheder" og konfigurer de rettigheder du ønsker
-   (du kan se hvordan AAK har konfigureret her [AAK builder rettigheder](../builder/rettigheder.md))
+   (du kan se hvordan AAK har konfigureret her [AAK builder rettigheder](https://aarhusai.github.io/documentation/builder/rettigheder.html)
 5. Gem gruppen
 6. Åbn gruppen igen for at tilføje medlemmer - det gøres i venstre side ved at trykke "Brugere"
 
-Det kan godt være at du har brug at konfigurere rettighederne anderledes end Aarhus Kommune har gjort, det skal du være så
-velkommen til. Hvis du er i tvivl om hvad en rettighed betyder kan der måske hentes viden i OpenWebUIs dokumentation.
-I Aarhus Kommune har vi mange grupper i systemet (500+) da vi udover rettighedgruppen "Builder", også har almindelige
-brugergrupper der afhænger af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører en person f.eks. flg. grupper
+Det kan godt være at du har brug at konfigurere rettighederne anderledes end Aarhus Kommune har gjort, det skal du være
+så velkommen til. Hvis du er i tvivl om hvad en rettighed betyder kan der måske hentes viden i OpenWebUIs
+dokumentation.
+I Aarhus Kommune har vi mange grupper i systemet (500+) da vi udover rettighedsgruppen "Builder", også har almindelige
+brugergrupper der afhænger af brugerens organisatoriske indplacering. Som ansat i ITK Development tilhører en person
+f.eks. flg. grupper
 
 - Aarhus Kommune
 - MKB
@@ -47,7 +49,7 @@ rettigheder der er konfigureret her. Vi bruger standardrettighederne til vores o
 dækker over de rettigheder man har som almindelig bruger af systemet (altså ikke builder-rettigheder). Når en
 bruger kun placeres i en organsiatorisk gruppe har vedkommende så "kun" standardrettighederne, og det er derfor
 ikke nødvending at have en ekstra rolle-gruppe til en almindelig bruger. Du kan se hvordan vores standard
-rettigheder er konfigureret her: [slutbruger rettigheder](../slutbruger/rettigheder.md).
+rettigheder er konfigureret her: [slutbruger rettigheder](https://aarhusai.github.io/documentation/slutbruger/rettigheder.html).
 
 ## Base modeller
 
