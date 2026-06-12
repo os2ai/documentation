@@ -37,4 +37,4 @@ omkostninger og fuld kontrol over data og teknologi samt valgfrihed. Platformen 
 at udvikle, dele og skalere løsninger - til gavn for offentligt ansatte og i sidste ende borgere.
 
 * [Kildekoden findes her](https://github.com/os2ai)
-*[Link til demo-video](https://boks.os2.eu/s/xZEor2NG6QKGe2D)
+* [Link til demo-video](https://boks.os2.eu/s/xZEor2NG6QKGe2D)
