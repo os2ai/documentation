@@ -7,7 +7,13 @@ nav_order: 7
 
 # LiteLLM guardrails
 
-Currently, shipped guardrails:
+LiteLLM guardrails are a way to execute code on and around input and output sent to and from models managed by LiteLLM.
+
+The Open WebUI instance sends requests to LiteLLM, but does not support setting guardrails on a per-request basis. For
+this reason, guardrails that should execute on messages from Open WebUI should be set as always on, by setting the
+`default_on` setting to `true` when declaring the guardrail (see below).
+
+## Currently, shipped guardrails
 
 | Guardrail                  | Type     | File                                                                                                                                     | What it does                                                                                                                                                                                                  |
 |----------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
