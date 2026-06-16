@@ -28,6 +28,10 @@ The message trimming guardrail can be configured in the litellm
 values [file](https://github.com/os2ai/helm-deployments/blob/develop/applications/litellm/litellm-values.yaml#L108)
 configuration file in the helm chart.
 
+Every model has a fixed context window. If a conversation's message history grows beyond it, the upstream model rejects
+the whole request with an error, breaking the conversation. The guardrail prevents this by trimming older messages so the
+history always fits within the model's context window before the request is forwarded.
+
 __Note__: that the default configuration contains an option to set max tokens for a named model, which overrides the
 global default max tokens value. This is useful for models that have a different context window size than the global
 default.
