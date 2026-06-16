@@ -109,13 +109,21 @@ flowchart LR
     T --> C([model is asked to continue here])
 ```
 
-Most providers (OpenAI, Anthropic, Google, Mistral via the official APIs) __accept__ this shape — that's how tool
-calling works. Popping the tool message and substituting `"Please continue"` deprives the model of the result it was
-supposed to reason from, so the default is __off__.
+Here the final `role: tool` message holds the result of the last tool call, and the model is asked to reason from that
+result. The `pop_trailing_tool_messages` setting controls whether the guardrail keeps or removes that trailing result
+before forwarding the request:
 
-Set `pop_trailing_tool_messages: true` only for upstream chat templates that explicitly reject `role: tool` messages —
-notably the strict HuggingFace template that raises `"Only user and assistant roles are supported!"`. The per-model
-override map lets you flip it for one model in a fleet without affecting the others.
+- __Disabled (`false`, the default)__: the trailing `role: tool` message is left in place. Most providers (OpenAI,
+  Anthropic, Google, Mistral via the official APIs) __accept__ this shape — that's how tool calling works — so the model
+  receives the tool-call result and reasons from it as intended.
+- __Enabled (`true`)__: the guardrail strips the trailing `role: tool` message(s), and if the history then ends on an
+  assistant message it appends a `"Please continue"` user message in their place. This removes the tool-call result the
+  model was supposed to reason from, so it has to continue without ever seeing the tool's output.
+
+Because losing the tool-call result degrades the response, the default is __off__. Set `pop_trailing_tool_messages: true`
+only for upstream chat templates that explicitly reject `role: tool` messages — notably the strict HuggingFace template
+that raises `"Only user and assistant roles are supported!"`. The per-model override map lets you flip it for one model
+in a fleet without affecting the others.
 
 ### Why both repairs run when pop is enabled
 
