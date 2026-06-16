@@ -61,6 +61,8 @@ guardrails:
       pop_trailing_tool_messages: false
 ```
 
+For information about the configuration options, see the [configuration reference](#configuration-reference) section.
+
 ## How Message Trimming works
 
 `async_pre_call_hook` runs on every chat completion request. The flow:
