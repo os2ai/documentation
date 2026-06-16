@@ -69,6 +69,14 @@ For information about the configuration options, see the [configuration referenc
 
 ## How Message Trimming works
 
+Asking the model to generate more tokens than its context window can hold can be fatal for the entire conversation: the
+request is rejected outright. To avoid this, the guardrail takes a conservative approach and computes a __safe completion
+budget__ — the number of tokens left for the model's reply once the input messages, a configurable safety buffer, and a
+headroom factor for tokens the provider may add later have all been subtracted from the context window. It then caps the
+request's `max_tokens` at that budget. The trade-off is deliberate: erring on the low side may occasionally give the
+model slightly less room to answer than it could technically use, but it guarantees the request fits and the
+conversation survives.
+
 `async_pre_call_hook` runs on every chat completion request. The flow:
 
 1. __Resolve context window__ for the target model (`_resolve_max_context_tokens`):
