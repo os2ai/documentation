@@ -8,3 +8,4 @@ parent: Releases
 Releasen indeholder:
 
 - FK adgangsstyring
+- Opdatering af OpenWebUI til 0.9.6
