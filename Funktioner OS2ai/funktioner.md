@@ -23,7 +23,8 @@ parent: Funktioner OS2ai
 
 ## Udestående funktioner
 
-OS2ai er ikke en som ChatGPT, Microsoft Co-pilot og lignende kommercielle løsninger. OS2ai er et open source produkt bygget på bl.a. OpenWebUI (og meget
+OS2ai er ikke en som ChatGPT, Microsoft Co-pilot og lignende kommercielle løsninger.
+OS2ai er et open source produkt bygget på bl.a. OpenWebUI (og meget
 mere, det kan i læse om i den tekniske dokumentation, hvis I er nysgerrige) - og der er mangler i produktet. OS2ai kan
 f.eks. ikke
 
