@@ -23,12 +23,12 @@ parent: Funktioner OS2ai
 
 ## Udestående funktioner
 
-Aarhus AI er ikke en som chatGPT, co-pilot og de andre. OS2ai er et OpenSource produkt bygget på OpenWebUI (og meget
-mere, det kan i læse om i den tekniske dokumentation hvis i er nysgerrige) og der er mangler i produktet. Aarhus AI kan
+OS2ai er ikke en som ChatGPT, Microsoft Co-pilot og lignende kommercielle løsninger. OS2ai er et open source produkt bygget på bl.a. OpenWebUI (og meget
+mere, det kan i læse om i den tekniske dokumentation, hvis I er nysgerrige) - og der er mangler i produktet. OS2ai kan
 f.eks. ikke
 
 - læse et regneark rigtigt
 - generere billeder
 - mm.
 
-Vi tager gerne imod ønsker til den videre udvikling.
+Vi tager gerne imod ønsker til den videre udvikling. Disse kan indmeldes som et issue i dette Github-repository: [https://github.com/os2ai/Feedback](https://github.com/os2ai/Feedback)
