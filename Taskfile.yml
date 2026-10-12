@@ -26,6 +26,10 @@ tasks:
       - task compose -- run --rm rumdl rumdl check .
     silent: true
 
+  format:
+    desc: "Run markdown formatter"
+    cmds:
+      - task compose -- run --rm rumdl rumdl format .
     silent: true
 
   open:
