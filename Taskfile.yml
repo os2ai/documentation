@@ -23,7 +23,9 @@ tasks:
   lint:
     desc: "Run markdown linter"
     cmds:
-      - task compose -- run --rm markdownlint markdownlint '**/*.md'
+      - task compose -- run --rm rumdl rumdl check .
+    silent: true
+
     silent: true
 
   open:

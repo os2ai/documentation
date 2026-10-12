@@ -1,0 +1,18 @@
+[global]
+flavor = "jekyll"
+disable = ["MD025"]
+exclude = [
+    "_site",
+    "LICENSE.md"
+]
+
+[line-length]
+code-blocks = false
+line-length = 120
+tables = false
+
+[no-duplicate-heading]
+siblings-only = true
+
+[MD033]
+allowed-elements = ["img"]

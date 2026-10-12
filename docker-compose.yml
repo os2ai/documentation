@@ -25,7 +25,8 @@ services:
       - "traefik.docker.network=frontend"
       - "traefik.http.routers.${COMPOSE_PROJECT_NAME}.rule=Host(`${COMPOSE_DOMAIN}`)"
 
-  markdownlint:
-    image: itkdev/markdownlint
+  rumdl:
+    image: ghcr.io/rvben/rumdl:0.2.79-alpine@sha256:5b4298edcbb50a10c52ab35aee68293b0217e7e01315bc5aab1a65d6697afe80
+    working_dir: /md
     volumes:
       - ./:/md
