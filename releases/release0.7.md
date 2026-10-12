@@ -2,6 +2,7 @@
 title: Release 0.7.0
 parent: Releases
 ---
+
 # Release 0.7.0
 
 Releasen indeholder:
