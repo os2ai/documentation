@@ -38,7 +38,7 @@ Patches
 - name: 'Group sharing permissions'
   - url: [https://patch-diff.githubusercontent.com/raw/AarhusAI/open-webui/pull/47.diff]
   - branch: 'feature/group-sharing-permissions'
-  
+
 Patches AAK:
 
 - name: 'Allow only admin users to generate API-KEY for the backend'

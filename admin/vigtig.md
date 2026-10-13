@@ -2,6 +2,7 @@
 title: Vigtigt - Håndtering af administratorrettigheder i OpenWebUI
 parent: Admin
 ---
+
 # Vigtigt: Håndtering af administratorrettigheder i OpenWebUI
 
 Når I får applikationen mellem hænderne, vil I have fulde administratorrettigheder til jeres version af OpenWebUI. Det

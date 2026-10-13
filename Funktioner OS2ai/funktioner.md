@@ -2,6 +2,7 @@
 title: Nuværende funktioner
 parent: Funktioner OS2ai
 ---
+
 # Funktioner i OS2ai
 
 ## Nuværende funktioner
