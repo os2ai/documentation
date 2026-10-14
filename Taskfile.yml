@@ -6,7 +6,7 @@ dotenv: [ '.env.local', '.env' ]
 vars:
   # https://taskfile.dev/reference/templating/
   BASE_URL: '{{.TASK_BASE_URL | default .COMPOSE_SERVER_DOMAIN | default .COMPOSE_DOMAIN }}'
-  DOCKER_COMPOSE: '{{ .TASK_DOCKER_COMPOSE | default "itkdev-docker-compose" }}'
+  DOCKER_COMPOSE: '{{ .TASK_DOCKER_COMPOSE | default "docker compose" }}'
 
 tasks:
   default:
