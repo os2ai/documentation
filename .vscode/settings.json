@@ -1,4 +1,5 @@
 {
+  "git.alwaysSignOff": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.rumdl": "explicit"
   }
