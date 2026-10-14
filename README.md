@@ -27,11 +27,7 @@ NB: dokumentationen er ikke henvendt til slutbrugere af OS2ai
 
 Vi elsker bidrag! Uanset om du har fundet en stavefejl eller har skrevet en helt ny guide, så er du mere end velkommen.
 
-**Sådan gør du:**
-
-1. Send os et **Pull Request**.
-2. Vores automatiske workflows tjekker din kode og sørger for, at markdown-filerne sidder lige i skabet (linting).
-3. Når alt er godkendt, bliver dit bidrag en del af fællesskabet!
+Tag et kig i [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
