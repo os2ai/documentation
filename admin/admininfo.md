@@ -8,11 +8,11 @@ parent: Admin
 Vil man gerne lave ændringer til indstillingerne i administrationspanelet skal det gå igennem drifts- og
 applikationsleverandøren. Årsagen hertil er uddybet i afsnittet 'Hvorfor Configuration as Code?' neden for.
 
-Hvis der ikke benyttes en leverandør bør den lokalt IT-administrator kontaktes.
+Hvis der ikke benyttes en leverandør bør den lokale IT-administrator kontaktes.
 
 ### Leverandørkontakt ved ønske om ændringer
 
-- [DTU Computerome](https://www.computerome.dk/) - [support@computerome-k8s.dk](support@computerome-k8s.dk)
+- [DTU Computerome](https://www.computerome.dk/) - [support@computerome-k8s.dk](mailto:support@computerome-k8s.dk)
 - ???
 
 ### Midlertidige indstillinger
