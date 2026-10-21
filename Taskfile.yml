@@ -32,6 +32,18 @@ tasks:
       - task compose -- run --rm rumdl rumdl format .
     silent: true
 
+  sast:
+    desc: "Run SAST using Opengrep"
+    cmds:
+      - task compose -- run --rm opengrep
+    silent: true
+
+  clean:
+    desc: "Clean up generated files"
+    cmds:
+      - rm -rf .opengrep_cache _site .rumdl_cache
+    silent: true
+
   open:
     desc: Open the site in the browser
     cmds:
