@@ -23,34 +23,6 @@ services:
     command: ["rumdl", "check", "--no-cache", "."]
 
   opengrep:
-    image: alpine:3.24
-    working_dir: /workspace
+    build: ./docker/opengrep
     volumes:
-      - ./:/workspace
-    entrypoint: ["/bin/sh", "-c"]
-    command:
-      - |
-        DIR=".opengrep_cache"
-        NAME="opengrep_musllinux_x86"
-        BIN="$$DIR/$$NAME"
-        URL="https://github.com/opengrep/opengrep/releases/download/v1.30.2"
-
-        if [ ! -f "$$BIN" ]; then
-          (
-            set -e
-            apk add -q --no-cache curl bash cosign > /dev/null 2>&1
-            mkdir -p "$$DIR"
-            curl -sSL --output-dir "$$DIR" \
-              -O "$$URL/$$NAME" \
-              -O "$$URL/$$NAME.cert" \
-              -O "$$URL/$$NAME.sig"
-            cosign verify-blob "$$BIN" \
-              --certificate "$$BIN.cert" \
-              --signature "$$BIN.sig" \
-              --certificate-identity-regexp "^https://github.com/opengrep/" \
-              --certificate-oidc-issuer "https://token.actions.githubusercontent.com" > /dev/null 2>&1
-            chmod +x "$$BIN"
-          ) || exit 1
-        fi
-
-        "$$BIN" scan
+      - ./:/workspace:ro
