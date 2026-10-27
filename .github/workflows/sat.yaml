@@ -8,12 +8,12 @@ on:
 
 jobs:
   sast:
-    runs-on: ubuntu-26.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - run: docker compose run --rm opengrep
   markdown:
-    runs-on: ubuntu-26.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - run: docker compose run --rm rumdl
