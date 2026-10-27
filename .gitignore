@@ -2,3 +2,4 @@ _site/
 Gemfile.lock
 .rumdl_cache/
 .omp/
+.jekyll-cache/

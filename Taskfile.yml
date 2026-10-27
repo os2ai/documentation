@@ -5,7 +5,7 @@ dotenv: [ '.env.local', '.env' ]
 
 vars:
   # https://taskfile.dev/reference/templating/
-  BASE_URL: '{{.TASK_BASE_URL | default .COMPOSE_SERVER_DOMAIN | default .COMPOSE_DOMAIN }}'
+  OPEN: '{{ if eq OS "darwin" }}open{{ else }}xdg-open{{ end }}'
   DOCKER_COMPOSE: '{{ .TASK_DOCKER_COMPOSE | default "docker compose" }}'
 
 tasks:
@@ -38,7 +38,24 @@ tasks:
       - task compose -- run --rm opengrep
     silent: true
 
+  url:
+    desc: Print the local URL of the running site
+    vars:
+      PORT:
+        sh: '{{ .DOCKER_COMPOSE }} port jekyll 4000 2>/dev/null | head -n1 | awk -F: "{print \$NF}"'
+    preconditions:
+      - sh: test -n "{{ .PORT }}"
+        msg: "Site is not running. Start it with: task start"
+    cmds:
+      - echo "http://localhost:{{ .PORT }}"
+
   open:
     desc: Open the site in the browser
     cmds:
-      - open http://{{ .BASE_URL }}
+      - '{{ .OPEN }} "$(task url)"'
+
+  start:
+    desc: Start the site and print its URL
+    cmds:
+      - '{{ .DOCKER_COMPOSE }} up --detach jekyll'
+      - task: url
