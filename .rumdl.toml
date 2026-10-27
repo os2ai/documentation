@@ -3,6 +3,7 @@ flavor = "jekyll"
 disable = ["MD025"]
 exclude = [
     "_site",
+    ".omp",
     "LICENSE.md"
 ]
 

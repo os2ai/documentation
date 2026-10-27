@@ -20,6 +20,7 @@ services:
     working_dir: /md
     volumes:
       - ./:/md
+    command: ["rumdl", "check", "--no-cache", "."]
 
   opengrep:
     image: alpine:3.24

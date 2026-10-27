@@ -1,4 +1,5 @@
 _site/
 Gemfile.lock
-.rumdl.cache
+.rumdl_cache/
 .opengrep_cache
+.omp/

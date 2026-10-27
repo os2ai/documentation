@@ -23,13 +23,13 @@ tasks:
   lint:
     desc: "Run markdown linter"
     cmds:
-      - task compose -- run --rm rumdl rumdl check .
+      - task compose -- run --rm rumdl
     silent: true
 
   format:
     desc: "Run markdown formatter"
     cmds:
-      - task compose -- run --rm rumdl rumdl format .
+      - task compose -- run --rm rumdl rumdl format --no-cache .
     silent: true
 
   sast:
