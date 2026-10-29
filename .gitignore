@@ -1,3 +1,5 @@
 _site/
 Gemfile.lock
-.rumdl.cache
+.rumdl_cache/
+.omp/
+.jekyll-cache/
