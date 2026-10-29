@@ -15,3 +15,8 @@ services:
     volumes:
       - ./:/md
     command: ["rumdl", "check", "--no-cache", "."]
+
+  opengrep:
+    build: ./docker/opengrep
+    volumes:
+      - ./:/workspace:ro
