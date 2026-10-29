@@ -32,6 +32,12 @@ tasks:
       - task compose -- run --rm rumdl rumdl format --no-cache .
     silent: true
 
+  sast:
+    desc: "Run SAST using Opengrep"
+    cmds:
+      - task compose -- run --rm opengrep
+    silent: true
+
   url:
     desc: Print the local URL of the running site
     vars:
