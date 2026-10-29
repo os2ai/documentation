@@ -1,0 +1,20 @@
+name: SAT (Static Application Testing)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  sast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: docker compose run --rm opengrep
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: docker compose run --rm rumdl
+
