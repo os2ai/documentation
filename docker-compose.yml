@@ -14,3 +14,4 @@ services:
     working_dir: /md
     volumes:
       - ./:/md
+    command: ["rumdl", "check", "--no-cache", "."]
