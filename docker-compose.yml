@@ -1,29 +1,13 @@
-networks:
-  frontend:
-    external: true
-  app:
-    driver: bridge
-    internal: false
-
 services:
   jekyll:
     image: jekyll/jekyll:4
     command: jekyll serve --watch
     environment:
       - JEKYLL_ENV=development
-      - VIRTUAL_HOST=${COMPOSE_DOMAIN}
-    networks:
-      - frontend
-      - app
     ports:
       - '4000'
-      - '35729'
     volumes:
       - ${PWD}:/srv/jekyll
-    labels:
-      - "traefik.enable=true"
-      - "traefik.docker.network=frontend"
-      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}.rule=Host(`${COMPOSE_DOMAIN}`)"
 
   rumdl:
     image: ghcr.io/rvben/rumdl:0.2.79-alpine@sha256:5b4298edcbb50a10c52ab35aee68293b0217e7e01315bc5aab1a65d6697afe80
