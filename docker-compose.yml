@@ -4,10 +4,12 @@ services:
     command: sh -c 'bundle install && bundle exec jekyll serve --watch --host 0.0.0.0'
     environment:
       - JEKYLL_ENV=development
+      - BUNDLE_PATH=/usr/local/bundle
     ports:
       - '4000'
     volumes:
       - ${PWD}:/srv/jekyll
+      - bundle-cache:/usr/local/bundle
 
   rumdl:
     image: ghcr.io/rvben/rumdl:0.2.79-alpine@sha256:5b4298edcbb50a10c52ab35aee68293b0217e7e01315bc5aab1a65d6697afe80
@@ -20,3 +22,6 @@ services:
     build: ./docker/opengrep
     volumes:
       - ./:/workspace:ro
+
+volumes:
+  bundle-cache:
