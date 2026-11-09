@@ -26,4 +26,3 @@ git config format.signOff true
 ```
 
 Se [https://git-scm.com/docs/git-config#Documentation/git-config.txt-formatsignOff]
-
