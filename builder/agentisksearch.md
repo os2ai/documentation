@@ -92,22 +92,27 @@ til at bruge søgeværktøjet agentisk.
 
 ### Trin 5: System prompt
 
-Opdater din assistents system prompt så modellen vejledes til at søge ved usikkerhed. Kopiér og tilpas følgende:
+Opdater din assistents system prompt så modellen vejledes til at søge ved usikkerhed. Vi anbefaler, at internetsøgning
+anvendes til fakta, der kan ændre sig, eller som modellen ikke kan vide sikkert. Kopiér og tilpas følgende:
 
 **System prompt eksempel:**
 
 ```markdown
 ## Websøgning – retningslinjer
 
-- Brug websøgning når:
-    - Du er usikker på et faktum eller en oplysning.
-    - Spørgsmålet vedrører aktuelle begivenheder, love, regler eller datoer.
-    - Din vidensbase kan være forældet.
-- Brug **ikke** websøgning til generiske skriveopgaver, brainstorming eller omformulering, hvor brugerens eget input er
-  grundlaget.
-- Angiv altid kilden, når du baserer et svar på en websøgning, fx:
-    - "Ifølge [kilde] (søgt d. {{CURRENT_DATE}})..."
+WEBSØGNING (websearch_search_web): Kald ALTID websearch_search_web, før du svarer på spørgsmål om:
+- personer og hvem der har en post
+- navne på organisationer, steder og produkter
+- tal, datoer, priser, frister, love og regler
+- nyheder og aktuelle forhold
+- alt med "nu", "gældende", "i år" eller "seneste"
+Søg IKKE ved korte skriveopgaver som mails og omformulering.
+Svar kun ud fra søgeresultatet, og skriv kilden.
+Finder du intet, så skriv: "Jeg kunne ikke finde et pålideligt svar."
 ```
+
+Bruger assistenten også en videndatabase, så skriv, hvilken kilde der kommer først. Typisk skal videndatabasen bruges
+ved spørgsmål om kommunens egne forhold, og websøgning ved alt andet.
 
 ---
 
