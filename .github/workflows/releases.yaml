@@ -1,0 +1,15 @@
+name: Releases
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check release pages link their GitHub release tag
+        run: .github/scripts/check-release-links.sh
