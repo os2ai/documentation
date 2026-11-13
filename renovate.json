@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "labels": ["dependencies"],
+  "timezone": "Europe/Copenhagen",
+  "internalChecksFilter": "strict",
+  "packageRules": [
+    {
+      "matchManagers": ["docker-compose"],
+      "groupName": "docker images"
+    },
+    {
+      // patches (and pins/digests): the org Renovate cron runs nightly at
+      // 01:00, so the first run after the 14-day age gate opens the PR.
+      "matchUpdateTypes": ["patch", "pin", "digest"],
+      "minimumReleaseAge": "14 days"
+    },
+    {
+      // minors: only on the ~3-weekly Monday window AND 14+ days old.
+      "matchUpdateTypes": ["minor"],
+      "minimumReleaseAge": "14 days",
+      "schedule": ["every 3 weeks on monday"]
+    },
+    {
+      // majors: twice a year (Jan 1 / Jul 1) AND 1+ month old.
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "1 month",
+      "schedule": ["* * 1 1,7 *"]
+    }
+  ]
+}
