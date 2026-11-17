@@ -17,7 +17,7 @@ Opgaven med release management håndteres af en release manager, det er beskreve
 3. Der informeres ud i OS2Samtale Release tråden at der er en ny release på vej, og hvad den indeholder
 4. Release Candidate lægges på demostitet af Core Team
 5. Release Manager tester på demositet, udfra de testcases der kan findes her:
-   [https://aarhusai.github.io/documentation/admin/testcases.html](https://aarhusai.github.io/documentation/admin/testcases.html).
+   [https://os2ai.github.io/documentation/admin/testcases.html](https://os2ai.github.io/documentation/admin/testcases.html).
    Vær opmærksom på at det er funktionelle tests.
 6. Release Manager skriver ud i OS2Samtale Release tråden at den nye release er klar til test, anvendere har 7 dage
    til at teste før releasen godkendes
