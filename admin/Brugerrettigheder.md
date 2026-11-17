@@ -19,7 +19,7 @@ Der en patch der i brugeroverblikket viser rollen "Builder". Derudover har vi i 
 rollen "Builder" til OpenWebUI så en bruger der kommer med rollen "Builder" placeres i gruppen "Builder" i OpenWebUI.
 
 Under hver enkelt rolle i navigationen kan man læse om de permissions der er tildelt de enkelte roller.
-Under "Technical documentation" kan man også finde et json output af rollekonfigurationen i Aarhus AI.
+Under "Technical documentation" kan man også finde et json output af rollekonfigurationen i OS2ai.
 
 Her findes en oversigt over rettighederne for de forskellige brugertyper i systemet.
 
