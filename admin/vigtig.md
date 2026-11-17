@@ -17,4 +17,4 @@ Hvis I ændrer i indstillingerne, kan det betyde:
 2. Vi kan ikke garantere at opdateringer fungerer i jeres miljø.
 
 Hvis I ønsker at ændre i setup’et – eller oplever fejl efter egne ændringer kan I indkøbe bistand til fejlsøgning
-hos ITK Dev fra Aarhus Kommune og/eller jeres driftsleverandør.
+hos jeres driftsleverandør.
