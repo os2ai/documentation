@@ -12,12 +12,16 @@
     {
       // patches (and pins/digests): the org Renovate cron runs nightly at
       // 01:00, so the first run after the 14-day age gate opens the PR.
+      // Grouped so a nightly sweep arrives as a single PR, not one per bump.
       "matchUpdateTypes": ["patch", "pin", "digest"],
+      "groupName": "nightly patches",
       "minimumReleaseAge": "14 days"
     },
     {
       // minors: only on the ~3-weekly Monday window AND 14+ days old.
+      // Grouped into one PR per window to keep the open-PR count down.
       "matchUpdateTypes": ["minor"],
+      "groupName": "monthly minors",
       "minimumReleaseAge": "14 days",
       "schedule": ["every 3 weeks on monday"]
     },
