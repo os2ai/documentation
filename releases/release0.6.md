@@ -5,7 +5,7 @@ parent: Releases
 
 # Release 0.6.0
 
-Udgivet 2026-08-24. Selve releasen på GitHub: <https://github.com/os2ai/helm-deployments/releases/tag/0.6.0>
+Udgivet 2026-08-24. Se releasen på GitHub: <https://github.com/os2ai/helm-deployments/releases/tag/0.6.0>
 
 Releasen indeholder:
 

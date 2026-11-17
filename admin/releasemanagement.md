@@ -33,7 +33,7 @@ Hver release skal have en side under `releases/` i [dokumentationsrepoet](https:
 fx `releases/release0.8.md`. Siden indledes - direkte under overskriften - med linjen:
 
 ```markdown
-Udgivet YYYY-MM-DD. Selve releasen på GitHub: <https://github.com/os2ai/helm-deployments/releases/tag/X.Y.Z>
+Udgivet YYYY-MM-DD. Se releasen på GitHub: <https://github.com/os2ai/helm-deployments/releases/tag/X.Y.Z>
 ```
 
 Fremgangsmåde:
