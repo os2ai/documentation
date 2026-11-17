@@ -366,8 +366,7 @@ It also ensures searches are anonymous and untraceable from one query to the nex
 affect another. It filters out paid results and AI-generated results.
 
 In Aarhus, we have made an engine that searches [https://aarhus.dk/search](https://aarhus.dk/search) and places its
-results high in the final federated search. For reference,
-see the [implementation](https://github.com/OS2ai/aarhusai-docker/blob/main/.docker/searxng/aarhus.py).
+results high in the final federated search.
 
 Create the file `local-secrets/searxng-secret.yaml`:
 
