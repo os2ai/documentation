@@ -5,8 +5,7 @@ parent: Releases
 
 # Release 0.8.0
 
-Endnu ikke udgivet som stable release. Den aktuelle release candidate blev udgivet 2026-10-21. Selve releasen på
-GitHub: <https://github.com/os2ai/helm-deployments/releases/tag/0.8.0-rc.0>
+Udgivet 2026-11-13. Se releasen på GitHub: <https://github.com/os2ai/helm-deployments/releases/tag/0.8.0>
 
 Releasen indeholder:
 
