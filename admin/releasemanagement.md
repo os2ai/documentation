@@ -12,7 +12,7 @@ Opgaven med release management håndteres af en release manager, det er beskreve
 
 ## Proces
 
-1. Der kommer ny release af OpenWebUI, eller andre dele af AarhusAI
+1. Der kommer ny release af OpenWebUI, eller andre dele af OS2ai
 2. Core team laver en Release Candidate
 3. Der informeres ud i OS2Samtale Release tråden at der er en ny release på vej, og hvad den indeholder
 4. Release Candidate lægges på demostitet af Core Team
