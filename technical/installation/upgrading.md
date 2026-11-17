@@ -14,7 +14,7 @@ to [https://github.com/orgs/OS2ai/packages](https://github.com/orgs/OS2ai/packag
 The release process:
 
 1. OS2ai builds new images and updates the Docker Compose setup
-   in [https://github.com/OS2ai/aarhusai-docker](https://github.com/OS2ai/aarhusai-docker) for development and
+   in [https://github.com/os2ai/builder](https://github.com/os2ai/builder) for development and
    staging environments.
 2. OS2ai updates the Helm charts
    at [https://github.com/OS2ai/helm-deployments](https://github.com/OS2ai/helm-deployments) and tags the
