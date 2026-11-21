@@ -12,11 +12,14 @@ Dette har vi gjort fordi vi har et behov for at nogle brugere kan anvende specia
 assistenter, men ikke har administrator rettigheder.
 
 En Builder i OS2ai er en brugergruppe, der giver brugeren flere rettigheder. I OpenWebUI giver man rettigheder til
-brugergrupper og ikke til roller. Derfor har vi oprettet en gruppe, der hedder "Builder" (det er vigtigt at den hedder "
-Builder") der har udviddet rettighederne for de brugere der er i gruppen.
+brugergrupper og ikke til roller. Derfor skal der en gruppe, der hedder "Builder" - det er vigtigt at gruppen hedder
+præcist "Builder" (med stort B) - som har de udvidede rettigheder for de brugere der er medlem af gruppen.
 
-Der en patch der i brugeroverblikket viser rollen "Builder". Derudover har vi i vores brugerstyring lavet en mapning fra
-rollen "Builder" til OpenWebUI så en bruger der kommer med rollen "Builder" placeres i gruppen "Builder" i OpenWebUI.
+Når man benytter FKA via Adgangskomponenten, bliver rollen "builder" sendt afsted som en gruppe-claim med værdien
+"Builder" ved login, og OpenWebUI placerer brugeren i gruppen "Builder". Det kræver at gruppen allerede findes med
+præcis det navn: matcher navnet ikke eksakt (der skelnes mellem store og små bogstaver), bliver brugeren slet ikke
+placeret i rettighedsgruppen, uden at der vises en fejl. Gruppen oprettes derfor manuelt som beskrevet under
+[Konfiguration af builder rolle](builderconfig.html), før de første brugere logger ind.
 
 Under hver enkelt rolle i navigationen kan man læse om de permissions der er tildelt de enkelte roller.
 Under "Technical documentation" kan man også finde et json output af rollekonfigurationen i Aarhus AI.

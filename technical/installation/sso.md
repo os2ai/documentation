@@ -44,6 +44,37 @@ Seal the secret using kubeseal and redeploy the application by committing the ch
 kubectl create -f local-secrets/openwebui-secrets.yaml --dry-run=client -o yaml | kubeseal --format yaml > templates/sealed-openwebui-secrets.yaml
 ```
 
+## The Builder group
+
+For users to get builder permissions through SSO, a group named exactly `Builder` (with a capital `B`, no other
+spelling) **must already exist in Open WebUI** when users log in. Group membership is resolved by matching the group
+names in the claim against existing groups by exact name, case sensitive. Nothing else in the setup creates or fixes
+up this group.
+
+Two ways to get it wrong, both silent (no error is shown either way):
+
+- The group does not exist (or is named `builder`, `Builders`, ...) while group creation is disabled (the default,
+  `ENABLE_OAUTH_GROUP_CREATION: "False"`). Users are simply not added to any rights group and just lack builder
+  permissions.
+- Group creation is enabled (`ENABLE_OAUTH_GROUP_CREATION: "True"`, as suggested above) while the group is missing.
+  Open WebUI then creates `Builder` automatically on the first login, but with the *default* group permissions, not
+  the builder permissions.
+
+In both cases the fix is the same: create the `Builder` group manually - with the rights configured - as described in
+[Konfiguration af builder rolle](../../admin/builderconfig.html), before the first users log in.
+
+When you use FKA via the Adgangskomponent, the access component maps the OS2ai builder usersystemrole onto the
+`groups` claim, and that value must be `Builder` to hit the group (from
+`applications/adgangskomponent/adgangskomponent-values.yaml`):
+
+```yaml
+claims:
+  - key: groups
+    mappings:
+      - entityId: http://adgang.os2.eu/roles/usersystemrole/os2ai/builder/1
+        value: Builder
+```
+
 ## Configuration Options
 
 | Variable                               | Description                                                     | Default                                                                       |

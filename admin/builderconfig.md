@@ -15,8 +15,15 @@ samt en rolle der kune kunne anvende specialister og assistenter. For at imødek
 
 Da OpenWebUI ikke understøtter flere roller har vi brugt rettighedssystemet til at lave rollen. Det er gjort således:
 
+> Gruppen skal hedde "Builder" - præcist det navn, med stort B - for at brugere der logges ind via FKA og
+> Adgangskomponenten lander i den. Tildelingen sker via en login-claim med værdien "Builder", og OpenWebUI matcher
+> kun gruppenavnet eksakt (der skelnes mellem store og små bogstaver). Hvis gruppen mangler, eller hedder noget
+> andet (fx "builder"), bliver brugeren blot ikke medlem af gruppen - uden fejlbesked. Automatisk oprettelse af
+> grupper er slået fra som standard, så "Builder"-gruppen skal oprettes manuelt, før de første brugere logger ind.
+> {: .warning }
+
 1. Opret en ny gruppe her: <img src = "images/creategroup.png" alt ="skærmbillede der viser knapper i løsningen" />
-2. Navngiv gruppen "builder", skriv en passende beskrivelse
+2. Navngiv gruppen "Builder" (det præcise navn, med stort B), skriv en passende beskrivelse
 3. Under indstillingen "Hvem kan dele til denne gruppe" vælges "Medlemmer"
 4. Gå til menupunktet "rettigheder" og konfigurer de rettigheder du ønsker
    (du kan se hvordan AAK har konfigureret her [AAK builder rettigheder](https://aarhusai.github.io/documentation/builder/rettigheder.html)
