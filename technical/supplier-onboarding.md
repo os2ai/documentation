@@ -33,7 +33,7 @@ components are added as new directories under `applications/` plus an ArgoCD app
 Each deployment runs on its own Kubernetes cluster on VMs you provision yourself, described declaratively in a
 manifest that fixes node sizes, network, ingress IPs and storage (block storage for the databases, a shared
 filesystem such as Ceph for object stores and model caches). One cluster per customer keeps blast radius, capacity
-and network policy per tenant. Shared clusters - managed services, GPU inference - use the same pattern.
+and network policy per tenant. Shared clusters, managed services, GPU inference, use the same pattern.
 
 ## Shared access services
 
@@ -70,7 +70,7 @@ update, reading the changelog for anything that touches values or secrets. The f
 [upgrade guide](installation/upgrading.md).
 
 Because the drift between a deployment and the template is small and mechanical, keeping your changes in the
-categories above - and nothing else - is what makes upgrades cheap.
+categories above, and nothing else, is what makes upgrades cheap.
 
 ## Contributing back
 
@@ -99,8 +99,8 @@ it.
 
 ## This is still moving
 
-OS2ai is young and the packaging is not settled. The layout described here - a template you clone and drift by
-hand - is a candidate for replacement by a single wrapper chart whose `values.yaml` is the only interface, so an
+OS2ai is young and the packaging is not settled. The layout described here - a template you clone and operate by
+hand is a candidate for replacement by a single wrapper whose `values.yaml` is the only interface, so an
 installation says "give me OS2ai" with flags instead of copying repositories. That proposal is open and under
 discussion in [helm-deployments#66](https://github.com/os2ai/helm-deployments/issues/66).
 
