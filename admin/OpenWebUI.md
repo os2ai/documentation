@@ -5,7 +5,7 @@ parent: Admin
 
 # Om OS2ai og OpenWebUI, versioner og licenser
 
-Aarhus AI er bygget på OpenWebUI. Vi har "forket" projektet, men vi opdaterer løbende vores OpenWebUI-version,
+OS2ai er bygget på OpenWebUI. Vi har "forket" projektet, men vi opdaterer løbende vores OpenWebUI-version,
 så vi altid følger med de officielle udgivelser fra core-teamet bag OpenWebUI.
 
 Dette gør vi for at sikre:

@@ -7,8 +7,10 @@ nav_order: 3
 
 Open WebUI supports SSO with different providers. OS2ai has been extended for better support for OIDC groups and role
 claims from Microsoft OIDC. The default OS2ai docker
-image [ghcr.io/os2ai/open-webui](https://ghcr.io/os2ai/open-webui)
-has been patched with [https://github.com/aarhusai/open-webui/pull/33](https://github.com/aarhusai/open-webui/pull/33).
+image [ghcr.io/os2ai/open-webui](https://ghcr.io/os2ai/open-webui) has been patched with an OIDC group and role
+mapping patch. The patch is applied at image build time and is being brought under the OS2ai organisation together
+with the rest of the Open WebUI fork, see
+[os2ai/Feedback#37](https://github.com/os2ai/Feedback/issues/37).
 
 This patch allows configurable mapping of groups and roles from OIDC claims to groups in Open WebUI. It also ensures
 that the `builder` role from claims is mapped to the `Builder` group, as this group is responsible for giving

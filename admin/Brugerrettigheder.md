@@ -22,7 +22,7 @@ placeret i rettighedsgruppen, uden at der vises en fejl. Gruppen oprettes derfor
 [Konfiguration af builder rolle](builderconfig.html), før de første brugere logger ind.
 
 Under hver enkelt rolle i navigationen kan man læse om de permissions der er tildelt de enkelte roller.
-Under "Technical documentation" kan man også finde et json output af rollekonfigurationen i Aarhus AI.
+Under "Technical documentation" kan man også finde et json output af rollekonfigurationen i OS2ai.
 
 Her findes en oversigt over rettighederne for de forskellige brugertyper i systemet.
 
